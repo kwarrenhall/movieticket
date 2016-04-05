@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.2.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Address book</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Movie Selection</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <h2>What MOVIE to SEE?</h2>
+          <form id="movie-select">
+            <div id="radio-section">
+            <div class="radio">
+              <label>
+                <input type="radio" name="movieInput" id="surfnazis" value="1" checked>
+                Surf Nazis Must Die
+              </label>
+            </div>
+            <div class="radio">
+                <label>
+                  <input type="radio" name="movieInput" id="nightoflivingdead" value="0">
+                  Night of the Living Dead
+                </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="movieInput" id="piranha" value="0">
+                Piranha *new release*
+              </label>
+            </div>
+          </div>
+            <!-- text inputs -->
+            <div class="form-group">
+              <label for="new-time">Time Of Day (24-hour Military Time)</label>
+              <input type="number" class="form-control" id="new-time">
+            </div>
+            <div class="form-group">
+              <label for="new-age">What is your Age?</label>
+              <input type="number" class="form-control" id="new-age">
+            </div>
+              <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+          <h2>Ticket information:</h2>
+          <ul id="ticket">
+
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <div id="showticket">
+            <h2></h2>
+            <p>movie time: <span class="time"></span></p>
+            <p>ticket price: <span class="price"></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

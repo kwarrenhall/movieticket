@@ -1,0 +1,22 @@
+.container {
+  min-width: 700px;
+}
+
+#surf {
+max-width: 30%;
+
+}
+
+.jumbotron {
+text-align: center;
+margin-bottom: 0px;
+}
+
+.movieselector{
+  background-color: yellow;
+  margin-top: 0px;
+}
+.movieselector h2 {
+  margin-top: 0px;
+  color: red;
+}
